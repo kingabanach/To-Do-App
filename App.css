@@ -1,0 +1,68 @@
+.app {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    text-decoration: underline;
+    color: olive;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    margin: 10px;
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.complete-button {
+    height: 30px;
+    width: 80px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    margin: 0 0 10px 0;
+}
+
+.complete-button:hover {
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+}
+
+.complete-button:focus {
+    outline: none;
+}
+
+.input {
+    margin: 20px 0 0 0;
+    height: 24px;
+    width: 400px;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.input:focus {
+    outline: none;
+}
